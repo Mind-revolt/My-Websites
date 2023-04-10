@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grzegorz Franz Figurski</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alkatra&family=Anton&family=Merriweather:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Position property can be: - Static (HTML); Relative; Absolute; Fixed.
+  Static tells go with the rules of HTML positioning
+  Relative allows to position the element relative from a static positioning
+<! The relative position doesn't affect any other element. So other Elements
+keep record of the original position (static)
+ex.  img {
+  position: relative;
+  left: 30px;
+} -->
+<!-- Absolute position relates to the parent and specifies a margin from that
+parent. It affects the position of the other elements.-->
+<!-- Fixed position: It will stay in the fixed position disregarding absolute positioning.
+It will stay exactly where it is on the SCREEN! It'll move when scrolling and
+keep the exact place (ex. middle or edge of the screen, etc.)
+It FOLLOWS THE USER-->
+
+    <div class="body">
+      <!-- To change position relative to something one of the parents has to have
+        position set on relative. Otherwise, the position will be relative to the body.-->
+      <div class="top-container">
+        <!-- <p><img class="cloud1" src="CSS - My Site Images/cloud.png" alt="cloud"> -->
+        <!-- </p> -->
+      </div>
+<!-- Display: 1.Block elements take up the whole screen width "blocking out all other content"
+Common BLock Elements: - paragraphs; headers; divisions; lists; forms -->
+<!-- Display: 2.Inline elements: -spans(<span>); images (<img>); anchors (<a>) -->
+<!-- Display elements can be changed in css. Display: inline/block/inline-block -->
+<!-- Display: 3.Inline-block allows to set width and doesn't occupy the entire line. -->
+<!-- Display: 4.None gets rid of the element -->
+<!-- HTML code that's children will sit on top of the parent code
+ex. <div class=""> (parent)
+      <h1></h1> (child)
+    </div> -->
+    <!-- Child elements inherit parameters from Parent elements.
+         Using dynamic sizing will multiply the inherited size if it's also dynamic.
+         To avoid problems just refer to the root font size which is static.
+         instead of em write rem. -->
+<!-- Float in css wraps text around the specified element with a specific direction
+ex. left or right. Clear in css is -anti float. -->
+
+      <div class="top-text">
+
+        <span class="h1"><em>I'm Greg</em></span>
+
+        <!-- <img class="sunset" src="CSS - My Site Images/sunset.png" alt="sunset"> -->
+        <!-- <img class="cloud2" src="CSS - My Site Images/cloud.png" alt="cloud"> -->
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+        <img class="cloud2" src="CSS - My Site Images/cloud.png" alt="cloud">
+        <img class="mountain" src="CSS - My Site Images/mountain.png" alt="mountain">
+        <img class="sunset" src="CSS - My Site Images/sunset.png" alt="sunset">
+        <hr class="line">
+      </div>
+    </div>
+  <div class="color-side">
+
+    <div class="middle-container">
+      <div class="profile">
+        <h2>Hello.</h2>
+        <!-- <img src="CSS - My Site Images/Face - circle image1.png" alt="face"> -->
+        <img class="face" src="CSS - My Site Images/Face - circle image1.png" alt="face-img">
+
+        <p>Welcome to my webiste! Here you'll find information on what I can offer to
+        your business. Scroll down to learn about my skills and projects. At the
+        bottom of the page is a <strong>#Contact me</strong> section.  Click the
+        <strong>#Learn more</strong> section to read about my education, courses,
+        goals, and hobbies.
+
+        <h3>My offer.</h3>
+        <ul>
+          <li><h4>Software development in Python with Tkinter framework;</h4></li>
+          <li><h4>Building dynamic websites with HTML and CSS;</h4></li>
+          <li><h4>SMS and e-mail automation;</h4></li>
+          <li><h4>Writing informative/technical/engaging/creative content;</h4></li>
+          <li><h4>Vipassana meditation lessons;</h4></li>
+          <li><h4>A ton of energy, passion, and effort.</h4> </li>
+        </ul>
+
+        <h3>Who am I?</h3>
+        <p>I'm a disciplined individual who likes computers, creativity, and helping
+          people. I can <strong>develop applications, and websites, write content,
+          and overall create value</strong>.
+          What characterizes me is my <strong>willingness to learn, positivity,
+          open-mindedness, and versatility</strong>.</p>
+        <h3>What do I want?</h3>
+        <p>My main interest is to start a career in IT (ex. Software
+        development, IT support, etc.).
+        I am also open to other possibilities where I could grow as a professional.
+        I seek a <strong>job/training/internship, and project collaborations.</strong></p>
+        <p>In the next sections, you'll learn about my skills and completed projects.
+        </p>
+        <p>Let's get started!</p>
+
+        <h2><a href="mygoal.html">Learn more.</a></h2>
+        </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+          <img class="computer-img" src="CSS - My Site Images/computer.png" alt="computer-img">
+          <h3>Software Development</h3>
+          <img class="python-logo" src="CSS - My Site Images/python-logo.png" alt="python-logo">
+        <div class="skill-row">
+
+          <p>I'm an intermediate level <strong>Python</strong> developer. I chose
+            Python (logo from <a class="attri" href="https://www.flaticon.com/free-icons/python" title="python icons by Freepik">link</a>)
+            because it's fast to write, has a broad usage, and a very
+            readable syntax. A great language to start coding.</p>
+          <p>I also know<strong> HTML</strong> and <strong>CSS</strong>.
+            The next languages on my bucket list are <strong>Javascript, MySQL, and GO</strong>.
+            Below is a list of the specific things I can do:</p>
+        </div>
+        <div class="skill-row">
+          <div class="skills-list">
+
+            <ul>
+              <li>Functional and object-oriented
+              programming;</li>
+              <li>Setting up <strong> GUI using Tkinter framework</strong>;
+              </li>
+              <li><strong>Developing websites with HTML
+              <a class="attri" href="https://www.flaticon.com/free-icon/html-5_174854?term=html&page=1&position=1&origin=search&related_id=174854">(logo by Freepik)</a>
+              and CSS
+              <a class="attri" href="https://www.flaticon.com/free-icon/css-3_732190?term=css&page=1&position=1&origin=search&related_id=732190">(logo by Pixel Perfect)</a>;</li>
+              <img class="html-logo" class="img-size" src="CSS - My Site Images/html5-logo.png" alt="html-logo">
+              <li>Proficiency using for and while loops;</li>
+              <li>List and dictionary comprehensions;</li>
+              <li><strong>Handling exceptions</strong>;</li>
+              <li><strong>Global, local, environment variables</strong>;</li>
+              <img class="css-logo" class="img-size" src="CSS - My Site Images/css-logo.png" alt="">
+              <li>Experienced using<strong> Pandas</strong> library for data manipulation;</li>
+              <li><strong>Data encryption and security practices</strong>;</li>
+              <li>Experienced in <strong>accessing APIs</strong> for app development;</li>
+              <li>Creating <strong>nested dictionaries</strong> in the <strong>JSON</strong>
+              format to <em>store and retrieve data</em>;</li>
+              <li>Familiar with <strong>Git version control systems like GitHub</strong>;</li>
+              <li>Linux OS (logo by <a class="attri" href="https://www.flaticon.com/free-icons/linux" title="Linux icons">Freepik</a>) and Bash scripting.</li>
+              <img class="img-size" src="CSS - My Site Images/linux.png" alt="linux-logo">
+            </ul>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <h3>SMS and E-mail Automation</h3>
+            <p>I feel comfortable using <strong>Twilio, SMTP protocol, and
+              Pythonanywhere.</strong> These technologies enable automation of:</p>
+            <ol>
+              <li><strong>Sending text messages</strong> under specified conditions;</li>
+              <li><strong>Sending e-mails</strong> to clients;</li>
+              <li><strong>Running code repeatedly</strong> at specified time.</li>
+            </ol>
+        </div>
+
+        <div class="skill-row">
+          <h3>Content Writing</h3>
+          <img class="pen&paper" src="CSS - My Site Images/pen&paper1.png" alt="pen&paper-img">
+
+          <p>I can create <strong>technical, scientific, informative, and creative</strong>
+            articles, blog posts, and other text documents. I wrote many <em>scientific articles,
+            essays, projects, and presentations</em> during my 5 years at the University.</p>
+          <p>You can view my blog under this <a href="https://medium.com/@greg_franz_meditation">link.</a>
+          There I publish informative, creative, and scientific content. Mostly related
+          to meditation.</p>
+
+
+        </div>
+      </div>
+      <div class="skills">
+        <hr>
+        <h2>My Projects.</h2>
+        <div class="skill-row">
+          <p>So far I wrote over 20 projects! And I continue adding to that
+          number. Here are some of them:
+          <ul>
+            <li><h4>Password Manager - <a href="https://github.com/Mind-revolt/Password_manager">
+              link to GitHub</a></h4>
+
+            <img class="passman" src="CSS - My Site Images/passman1.png" alt="passman1">
+              <!-- <div class="project-item"> -->
+
+            <p>A secure way to <em>store, generate, and search for passwords.</em> This app
+            has an interface created in <strong>Tkinter framework</strong>. </p>
+            <img class="passman" src="CSS - My Site Images/passman2.png" alt="passman2">
+            <p>This Python script is a password manager that uses the Tkinter GUI
+              library to provide users with the ability to generate strong, random
+              passwords and store login credentials for multiple websites.</p>
+            <p>The password generator creates a password that is 12 characters long
+              and includes digits, uppercase and lowercase letters, and special characters.
+              The generated password is copied to the system clipboard and can be
+              displayed in the GUI text box by clicking the "Generate Password" button.
+              </p>
+            <p>The program stores website login credentials in a nested dictionary,
+              where the website URL serves as the key and the email or username
+              and password serve as the values.
+            <p>The dictionary is saved in a JSON
+              file named "data.json" using the "dump" method from the "json" library.
+              If the file already exists, the program reads the existing data from
+              the file and updates it with the new data.</p>
+            <p>The dictionary is saved in a JSON
+              file named "data.json" using the "dump" method from the "json" library.
+              If the file already exists, the program reads the existing data from
+              the file and updates it with the new data.
+              The "Search" functionality allows users to retrieve stored login
+              credentials for a website by entering the website URL in the GUI.</p>
+            <p>User data is stored in a <strong>JSON</strong> file. To add extra
+              protection one can also use file encryption for example
+              <a href="https://www.redhat.com/sysadmin/encryption-decryption-gpg">gpg</a>.</p>
+            </li>
+            <li>
+              <div class="project-item">
+
+              <h4>Workout Tracker - <a href="https://github.com/Mind-revolt/Workout_tracker">
+                  Link to GitHub</a></h4>
+
+
+              <img class="workout" src="CSS - My Site Images/workout-tracker-2.png" alt="workout-tracker2">
+
+              <p>This app allows users to track their workouts and calculate
+                burned calories.</p>
+              <p>The program is written in Python and utilizes the requests and
+                json modules to make API calls and parse the returned JSON data.
+                The program uses environment variables to store API keys and other
+                sensitive information, ensuring that they are not exposed in the code.
+              <p>The program logs into the Nutritionix API and retrieves data on
+                the calories burned during a workout.
+                It then posts this data to a Google Sheets document using the Sheety API.
+              </p>
+              <p>Users can also specify their weight and height in the
+                code parameters. That ensures a more precise calculation.
+              </p>
+              <p>My app uses <strong>API</strong> from <em>Nutritionix</em> to calculate
+                calories burned, duration, and type of exercise; and from <em>sheety.co</em> to
+                create a table with all your workouts.</p>
+              <h3>If you'd like to see all of my projects head on
+                to my <a href="https://github.com/mind-revolt">GitHub profile.</a></h3>
+
+               </div>
+              </li>
+
+          </div>
+
+        </ul>
+
+        <hr>
+      </div>
+    </div>
+      <div class="contact-me">
+        <h2>Get In Touch.</h2>
+        <h3>Hey.</h3>
+        <p>Skills, knowledge, positive energy, and top effort is what I offer.</p>
+        <p>Willing to learn and contribute.</p>
+        <p>So don't wait and message me 📧.</p>
+        <h3>Let's brighten each other's days!</h3>
+
+
+        <a class="btn" href="mailto:grzegorz.f.figurski@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <a class="footer-link"
+      href="https://www.linkedin.com/in/grzegorz-franz-figurski-16b29520a/">Linkedin</a>
+      <a class="footer-link" href="https://github.com/mind-revolt">GitHub</a>
+      <a class="footer-link" href="https://medium.com/@greg_franz_meditation">Medium</a>
+
+      <p class="ending-credentials">© 2023 Grzegorz Franz Figurski.</p>
+    </div>
+
+
+
+  </body>
+</html>
+<!-- 👋 -->
