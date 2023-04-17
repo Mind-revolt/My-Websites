@@ -37,13 +37,16 @@
   background-image: linear-gradient(to bottom, #196899, #3498db);
   text-decoration: underline;
 }
+.body {
+  background-color: white;
+}
 .cloud2 {
   position: absolute;
   display: inline-block;
   width: 20%;
 }
 .contact-me {
-  margin-bottom: 5%;
+  background-color: lightblue;
 }
 .content-mygoals {
   text-align: center;
@@ -138,7 +141,7 @@
   height: 75%;
 }
 .middle-container {
-  display: inline-block;
+  display: block;
   background-color: white;
   line-height: 2rem;
   text-align: center;
@@ -146,19 +149,11 @@
 .my-ed {
   text-align: justify;
 }
-/* .p1 {
-  display: block;
-  font-size: 2rem;
-  padding-top: 40px;
-  margin-bottom: -20px;
-  color: white;
-} */
+
 .passman {
   padding-right: 5%;
   width: 70%;
   height: 40%;
-
-  /* float: left; */
 }
 
 .pro {
@@ -184,21 +179,16 @@
   width: 30%;
   height: 30%;
 }
-/* .second-column {
-  margin-left: 5px;
-} */
 .skill-row {
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 5rem;
   margin-right: 4rem;
-  
 }
 .skills-table {
   border-collapse: collapse;
   width: 100%;
 }
-
 .skills-table ul li{
   border-spacing: max(15px, 2%);
 }
@@ -210,7 +200,7 @@
   width: 20%;
   visibility: visible;
 }
-.top-container {
+.top-text {
   position: relative;
   background-color: lightblue;
 }
@@ -234,7 +224,7 @@ a {
 }
 body {
   text-align: center;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   margin: 0;
 }
 
