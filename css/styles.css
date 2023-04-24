@@ -3,6 +3,7 @@
 
 .about-me {
   background-color: #FEFF86;
+  display: grid;
 }
 .attri {
   font-size: 1rem;
@@ -72,10 +73,6 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-.computer-img {
-  width: fit-content;
-}
-
 .css-attr {
   position: relative;
   display: block;
@@ -122,10 +119,11 @@
   position: relative;
 }
 .html-logo {
-  
   height: 40%;
-  
   width: 40%;
+}
+.quotes {
+  padding-top: 15px;
 }
 .img-size {
   display: block;
@@ -180,7 +178,9 @@
   border-style: groove;
   border-width: 20px;
   margin: 15px;
-  width: 70%;
+  min-width: 300px;
+  min-height: 200px;
+  width: 50%;
   height: 40%;
 }
 
@@ -253,7 +253,20 @@
 }
 
 /* *******************IDs********************** */
+#back {
+  display: inline-block;
+  position: absolute;
+  right: 90%;
+}
+#comp_goals {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 20px;
+  transform: translate(-50%, -50%);
+}
 #h2-goals {
+  display: inline;
   padding-top: 20px;
 }
 #thinker {
